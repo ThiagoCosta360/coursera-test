@@ -1,0 +1,56 @@
+body {
+	font-size: 16px;
+	background-color: yellowgreen;
+}
+
+#header-nav {
+	background-color: brown;
+	color: white;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand p {
+	font-size: 20px;
+	color: white;
+}
+
+.navbar-brand a:focus,
+.navbar-brand a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#nav-list a {
+	text-align: center;
+	color: white;
+}
+
+#nav-list a:hover {
+	background-color: blueviolet;
+	color: white;
+}
+
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: blueviolet;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 85%;
+		margin: 25px auto 0;
+	}
+}
